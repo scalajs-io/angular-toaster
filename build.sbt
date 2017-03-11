@@ -6,17 +6,17 @@ import sbt._
 import scala.language.postfixOps
 
 val apiVersion = "2.1.0"
-val scalaJsIOVersion = "0.3.0.6"
+val scalaJsIOVersion = "0.3.0.7"
 val scalaJsVersion = "2.12.1"
 
-homepage := Some(url("https://github.com/scalajs-io/angular-toaster"))
+homepage := Some(url("https://github.com/scalajs-io/angularjs-toaster"))
 
 lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
   settings(
-    name := "angular-toaster",
+    name := "angularjs-toaster",
     organization := "io.scalajs.npm",
-    description := "An angular-toaster binding for Scala.js",
+    description := "An angularjs-toaster binding for Scala.js",
     version := apiVersion,
     scalaVersion := scalaJsVersion,
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-language:implicitConversions", "-Xlint"),
@@ -44,7 +44,7 @@ lazy val publishingSettings = Seq(
       Some("releases" at nexus + "service/local/staging/deploy/maven2")
   },
   pomExtra :=
-    <url>https://github.com/scalajs-io/angular-toaster</url>
+    <url>https://github.com/scalajs-io/angularjs-toaster</url>
       <licenses>
         <license>
           <name>MIT License</name>
@@ -52,9 +52,9 @@ lazy val publishingSettings = Seq(
         </license>
       </licenses>
       <scm>
-        <connection>scm:git:github.com/scalajs-io/angular-toaster.git</connection>
-        <developerConnection>scm:git:git@github.com:scalajs-io/angular-toaster.git</developerConnection>
-        <url>github.com/scalajs-io/angular-toaster.git</url>
+        <connection>scm:git:github.com/scalajs-io/angularjs-toaster.git</connection>
+        <developerConnection>scm:git:git@github.com:scalajs-io/angularjs-toaster.git</developerConnection>
+        <url>github.com/scalajs-io/angularjs-toaster.git</url>
       </scm>
       <developers>
         <developer>

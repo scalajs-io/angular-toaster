@@ -1,10 +1,11 @@
-angular-toaster API for Scala.js
+AngularJS Toaster API for Scala.js
 ================================
-[angular-toaster](https://www.npmjs.com/package/angularjs-toaster) - angular-toaster binding for Scala.js.
+[angularjs-toaster](https://www.npmjs.com/package/angularjs-toaster) - angularjs-toaster binding for Scala.js.
 
 ### Description
 
-An `angular-toaster` binding for Scala.js.
+AngularJS Toaster is an AngularJS port of the `toastr` non-blocking notification jQuery library. 
+It requires AngularJS v1.2.6 or higher and angular-animate for the CSS3 transformations.
 
 ### Build Dependencies
 
@@ -32,10 +33,10 @@ $ sbt test
 
 ### Artifacts and Resolvers
 
-To add the `angular-toaster` binding to your project, add the following to your build.sbt:  
+To add the `angularjs-toaster` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "angular-toaster" % "2.1.0"
+libraryDependencies += "io.scalajs.npm" %%% "angularjs-toaster" % "2.1.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
