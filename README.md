@@ -1,10 +1,10 @@
 angular-toaster API for Scala.js
 ================================
-[angular-toaster](https://www.npmjs.com/package/angular-toaster) - angular-toaster binding for Scala.js.
+[angular-toaster](https://www.npmjs.com/package/angularjs-toaster) - angular-toaster binding for Scala.js.
 
 ### Description
 
-An angular-toaster binding for Scala.js.
+An `angular-toaster` binding for Scala.js.
 
 ### Build Dependencies
 
