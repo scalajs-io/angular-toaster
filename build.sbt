@@ -5,8 +5,8 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "2.1.0-1"
-val scalaJsIOVersion = "0.3.0.8"
+val scalaJsIOVersion = "0.4.0-pre1"
+val apiVersion = scalaJsIOVersion
 val scalaJsVersion = "2.12.1"
 
 homepage := Some(url("https://github.com/scalajs-io/angularjs-toaster"))
@@ -26,7 +26,7 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
 	    "org.scala-lang" % "scala-reflect" % scalaJsVersion,
 	    "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
-	    "io.scalajs.npm" %%% "angular" % "1.6.3-1"
+	    "io.scalajs.npm" %%% "angular" % scalaJsIOVersion
   ))
 
 /////////////////////////////////////////////////////////////////////////////////
