@@ -1,7 +1,7 @@
 package io.scalajs.npm.angularjs.toaster
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * AngularJS Toaster
@@ -9,6 +9,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @see https://www.npmjs.com/package/angularjs-toaster
   * @see https://github.com/jirikavi/AngularJS-Toaster
   */
+@JSGlobal
 @js.native
 class Toaster extends js.Object {
 
@@ -35,7 +36,6 @@ class Toaster extends js.Object {
 
 }
 
-@ScalaJSDefined
 class ToasterOptions(var `type`: js.UndefOr[String] = js.undefined,
                      var title: js.UndefOr[String] = js.undefined,
                      var body: js.UndefOr[String] = js.undefined,
